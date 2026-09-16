@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=User Autostart
+Exec=/usr/local/bin/autostart.sh
+Terminal=false
+X-GNOME-Autostart-enabled=true
