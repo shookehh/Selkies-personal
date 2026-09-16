@@ -27,7 +27,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/selkies-virtual-desktop:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/selkies-virtual-desktop:v${{ github.run_number }}
+            shookyyy/selkies-general:latest
+            shookyyy/selkies-general:v${{ github.run_number }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
